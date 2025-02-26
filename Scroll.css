@@ -1,0 +1,47 @@
+
+@keyframes clr{
+            
+            0%{align: left; width: 50%; height: 0px; background-color: #FFFFFF;}
+            100%  {width: 100%; height: 20px;  background-color: #FE7E0E;}
+
+}
+
+@keyframes Start{
+            
+             0%  {background-color: #777777; font-size: 24px;}
+             100%{background-color: white; font-size: auto;} 
+ 
+}
+
+
+
+
+#changeclr{
+            background-color: #FE7E0E;
+            animation: clr;
+            animation-duration: 2s;
+			animation-timing-function: linear;
+
+
+}
+
+#sta{
+       
+       animation: Start;
+       animation-duration: 3s;
+
+}
+
+@keyframes tt{
+          from{left: -940px;} 
+          to{left: 0px;} 
+		       
+}
+
+#tilt{
+		animation: tt;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+		position: relative;
+
+}
